@@ -1,0 +1,32 @@
+html{box-sizing: border-box;margin: 0;padding: 0;}
+body{margin: 0 50px;}
+.nav-1{list-style-type: none;}
+.nav-1 li{
+    display: inline;
+    margin: 5px;
+}
+a:link,a:visited{color: blue;}
+.img-pro{
+    width: 200px;
+    border-radius: 50%;
+}
+[class^=table-]{
+    width: 80%;
+    border-collapse: collapse;
+}
+[class^=table-] *{border: 1px solid silver;}
+.table-2 tr:first-child{background-color: lightcyan;}
+form{
+    margin: 0 10px;
+}
+fieldset{
+    width: 70%;
+    padding: 25px 50px 25px 50px;
+    border: 1.5px solid silver;
+    border-radius: 10px;
+}
+input,select,textarea{
+    width: 70%;
+    padding: 5px;
+    border: 1px solid silver;
+}
